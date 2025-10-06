@@ -1,0 +1,78 @@
+{
+    "name": "ModernUI",
+    "description": "现代化美观主题，突出下载功能",
+    "version": "1.0.0",
+    "images": "https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.0.3&auto=format&fit=crop&w=2160&q=80",
+    "configs": [{
+        "label": "主题色",
+        "placeholder": "请选择主题颜色",
+        "field_name": "theme_color",
+        "field_type": "select",
+        "select_options": {
+            "purple": "紫罗兰",
+            "blue": "天空蓝",
+            "green": "翡翠绿",
+            "orange": "活力橙",
+            "pink": "樱花粉"
+        },
+        "default_value": "purple"
+    }, {
+        "label": "下载按钮样式",
+        "placeholder": "选择下载按钮样式",
+        "field_name": "download_style",
+        "field_type": "select",
+        "select_options": {
+            "gradient": "渐变色(推荐)",
+            "solid": "纯色",
+            "outline": "边框"
+        },
+        "default_value": "gradient"
+    }, {
+        "label": "下载按钮大小",
+        "placeholder": "选择下载按钮大小",
+        "field_name": "download_size",
+        "field_type": "select",
+        "select_options": {
+            "large": "大",
+            "medium": "中",
+            "small": "小"
+        },
+        "default_value": "large"
+    }, {
+        "label": "背景图片",
+        "placeholder": "请输入背景图片URL",
+        "field_name": "background_url",
+        "field_type": "input"
+    }, {
+        "label": "启用动画效果",
+        "placeholder": "启用页面动画效果",
+        "field_name": "enable_animations",
+        "field_type": "select",
+        "select_options": {
+            "true": "启用",
+            "false": "禁用"
+        },
+        "default_value": "true"
+    }, {
+        "label": "导航栏风格",
+        "placeholder": "请选择导航栏风格",
+        "field_name": "navbar_style",
+        "field_type": "select",
+        "select_options": {
+            "transparent": "透明",
+            "solid": "实色",
+            "blur": "磨砂"
+        },
+        "default_value": "blur"
+    }, {
+        "label": "自定义CSS",
+        "placeholder": "输入自定义CSS代码",
+        "field_name": "custom_css",
+        "field_type": "textarea"
+    }, {
+        "label": "自定义页脚HTML",
+        "placeholder": "可以实现客服JS代码的加入等",
+        "field_name": "custom_html",
+        "field_type": "textarea"
+    }]
+}

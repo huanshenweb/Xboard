@@ -1,0 +1,21 @@
+/* Orange Theme */
+:root {
+    --primary-color: #F59E0B;
+    --primary-dark: #D97706;
+    --primary-light: #FBBF24;
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, #F59E0B 0%, #FBBF24 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-overlay {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.9) 0%, rgba(217, 119, 6, 0.8) 100%);
+}
+
+.download-section {
+    background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+}
