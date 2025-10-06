@@ -1,0 +1,21 @@
+/* Pink Theme */
+:root {
+    --primary-color: #EC4899;
+    --primary-dark: #DB2777;
+    --primary-light: #F472B6;
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, #EC4899 0%, #F472B6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-overlay {
+    background: linear-gradient(135deg, rgba(236, 72, 153, 0.9) 0%, rgba(219, 39, 119, 0.8) 100%);
+}
+
+.download-section {
+    background: linear-gradient(135deg, #EC4899 0%, #DB2777 100%);
+}
